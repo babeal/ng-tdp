@@ -1,6 +1,7 @@
 import { SimpleComponentModule } from "components";
 
 import { NgModule } from "@angular/core";
+import { MatSidenavModule } from "@angular/material";
 import { BrowserModule } from "@angular/platform-browser";
 
 import { AppRoutingModule } from "./app-routing.module";
@@ -13,7 +14,8 @@ import { AppComponent } from "./app.component";
   imports: [
     BrowserModule,
     AppRoutingModule,
-    SimpleComponentModule
+    SimpleComponentModule,
+    MatSidenavModule
   ],
   providers: [],
   bootstrap: [AppComponent]
